@@ -8,6 +8,7 @@
 </head>
 <body>
     <form action="connect.php" method="post">
+    Entrez votre nom
     <input type="text" name="nom" placeholder="nom">
     <input type="submit" value="valider">
     </form>
