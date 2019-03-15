@@ -3,9 +3,9 @@
 $username = $_POST['nom'];
 
 if (!empty($username)){/*  */
-    $host = "localhost";
-    $dbUsername = "root";
-    $dbPass = "";
+    $host = "buwd3fyvnjp7yxrdicdg-mysql.services.clever-cloud.com";
+    $dbUsername = "u1dz0875bomnfbtp";
+    $dbPass = "vhrLqaVInbn20dHDM3vi";
     $dbname = "buwd3fyvnjp7yxrdicdg";
 
     $connection=mysqli_connect($host,$dbUsername,$dbPass,$dbname);
