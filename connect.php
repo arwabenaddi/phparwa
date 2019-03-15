@@ -1,5 +1,9 @@
 <?php
-
+ $bdd = new PDO(
+    "mysql:host=" . getenv("buwd3fyvnjp7yxrdicdg-mysql.services.clever-cloud.com") . ";dbname=" . getenv("buwd3fyvnjp7yxrdicdg"),
+    getenv("u1dz0875bomnfbtp"),
+    getenv("vhrLqaVInbn20dHDM3vi")
+);
 $username = $_POST['nom'];
 
 // if (!empty($username)){/*  */
