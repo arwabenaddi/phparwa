@@ -1,10 +1,10 @@
 
 <?php
 
-$host = 'localhost';
-$dbUsername = 'root';
-$dbPass = '';
-$dbname = 'buwd3fyvnjp7yxrdicdg';
+$host = "buwd3fyvnjp7yxrdicdg-mysql.services.clever-cloud.com";//host Mysql Clever Cloud
+$dbUsername = "u1dz0875bomnfbtp";//Nom d'utilisateur  Mysql Clever Cloud
+$dbPass = "vhrLqaVInbn20dHDM3vi";//Mot de passe Mysql Clever Cloud
+$dbname = "buwd3fyvnjp7yxrdicdg";//Nom de la base de donnée Mysql Clever Cloud
 
  $connection=mysqli_connect($host,$dbUsername,$dbPass,$dbname);
 if (mysqli_connect_error()){
@@ -16,10 +16,9 @@ if (mysqli_connect_error()){
 $templine = '';
 // Read in entire file
 $filename = 'db.sql';
-//  $contents = file_get_contents('db.sql'); 
-//  $contents = str_replace(' ','',$contents);
 
-// $lines = str_replace(CHR(13).CHR(10),"",$contents);
+
+// $lines = str_replace(CHR(13).CHR(10),"",$contentssss);
 
  $lines = file($filename);
 // Loop through each line
