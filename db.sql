@@ -44,7 +44,7 @@ CREATE TABLE IF NOT EXISTS `test` (`nom` varchar(11) COLLATE utf8_bin NOT NULL) 
 -- Déchargement des données de la table `test`
 --
 
-INSERT INTO `test` (`nom`) VALUES('arwatestttttt'),('arwafsfss'),('arwafsfsfsf');
+INSERT INTO `test` (`nom`) VALUES('arwa'),('arwaf'),('arwafsf');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
